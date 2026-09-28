@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="#" class="logo">My Portfolio</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="admin.html" class="admin-link">Admin</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="small-title">Hello, I'm</p>
+                <h1 id="heroName">M Furqan</h1>
+                <h2 id="heroRole">mern stack  Developer</h2>
+                <p id="heroBio">
+                    I build clean, responsive and user-friendly websites
+                    using modern web technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn">My Experience</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="profile-circle">
+                    <span>YN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <p>Get To Know Me</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Who I Am</h3>
+                    <p id="aboutText">
+                        I'm a passionate developer focused on creating
+                        modern and responsive web experiences.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>My Skills</h3>
+                    <div class="skills" id="skillsContainer">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section dark-section" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <p>My Journey</p>
+                <h2>Experience</h2>
+            </div>
+
+            <div class="experience-grid" id="experienceContainer">
+                <!-- JavaScript will render experiences here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <p>Let's Talk</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        Feel free to contact me for any project or
+                        collaboration.
+                    </p>
+
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <span id="contactEmail">example@email.com</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Phone</strong>
+                        <span id="contactPhone">+92 300 0000000</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Location</strong>
+                        <span id="contactLocation">Pakistan</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© <span id="year"></span> My Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
