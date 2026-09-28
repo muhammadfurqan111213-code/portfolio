@@ -48,7 +48,7 @@ ul {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
+    background:  rgb(97, 94, 252);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
 }
